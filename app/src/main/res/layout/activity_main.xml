@@ -79,12 +79,13 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/inboxbutton" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/codeimage"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="420dp" />
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="379dp" />
 
 </android.support.constraint.ConstraintLayout>
